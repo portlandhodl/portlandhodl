@@ -18,7 +18,7 @@ Nyan Keys has 4 Primary Components
  - [FGPA Bitstream](https://github.com/russeree/nyan-keys-ice40hx4k-bitstream)
  - [Nyan OS (NOS) - STM32 Firmware](https://github.com/russeree/nyan-keys-stm32-firmware)
  - [Nyan DFU (STM32 Bootloader)](https://github.com/russeree/nyan-keys-dfu-bootloader)
- - [Nyan OS Web Config Tool - Hosted](https://russeree.github.io/)
+ - [Nyan OS Web Config Tool - Hosted](https://portlandhodl.github.io/)
  - [Nyan OS Web Config Tool - Source Code](https://github.com/russeree/nyan-keys-gui)
  
 The performance of Nyan Keys when configured with Cherry MX2A ([sub 1ms bounce time](https://www.cherry-world.com/company/press/article/cherry-mx2a-exceeding-expectations)) can exceed that of the Wooting with true sub 1ms latency. 
