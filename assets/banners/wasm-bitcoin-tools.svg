@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-label="WASM Bitcoin Tools: Run an unmodified Bitcoin Core offline in your browser on a v86_64 WebAssembly emulator.">
+<title>WASM Bitcoin Tools</title>
+<defs>
+  <linearGradient id="bgwasm-bitcoin-tools" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
+  </linearGradient>
+  <linearGradient id="acwasm-bitcoin-tools" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f7931a"/><stop offset="1" stop-color="#ffb347"/>
+  </linearGradient>
+  <radialGradient id="glwasm-bitcoin-tools" cx="0.12" cy="0.2" r="0.7">
+    <stop offset="0" stop-color="#f7931a" stop-opacity="0.22"/><stop offset="1" stop-color="#f7931a" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grwasm-bitcoin-tools" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+</defs>
+<rect width="800" height="300" rx="18" fill="url(#bgwasm-bitcoin-tools)"/>
+<rect width="800" height="300" rx="18" fill="url(#grwasm-bitcoin-tools)"/>
+<rect width="800" height="300" rx="18" fill="url(#glwasm-bitcoin-tools)"/>
+<rect x="1" y="1" width="798" height="298" rx="17" fill="none" stroke="#f7931a" stroke-opacity="0.35" stroke-width="2"/>
+<rect x="0" y="0" width="800" height="6" rx="3" fill="url(#acwasm-bitcoin-tools)"/>
+<rect x="40" y="44" width="104" height="104" rx="22" fill="#f7931a" fill-opacity="0.12" stroke="#f7931a" stroke-opacity="0.5" stroke-width="2"/>
+<g transform="translate(60 64) scale(1.0)" fill="none" stroke="#ffb347" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="10" width="52" height="44" rx="5"/><path d="M6 20h52M16 32l8 6-8 6M30 44h14"/></g>
+<text x="172" y="94" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#f0f6fc">WASM Bitcoin Tools</text>
+<g transform="translate(676 40)"><rect width="84" height="30" rx="15" fill="#f7931a" fill-opacity="0.16" stroke="#f7931a" stroke-opacity="0.6"/><circle cx="17" cy="15" r="4.5" fill="#ffb347"/><text x="30" y="20" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#ffb347">LIVE</text></g>
+<text x="172" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">Run an unmodified Bitcoin Core offline</text>
+<text x="172" y="164" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">in your browser on a v86_64 WebAssembly</text>
+<text x="172" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">emulator.</text>
+<g transform="translate(40 238)"><rect width="148" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="74" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">Bitcoin Core</text></g>
+<g transform="translate(200.39999999999998 238)"><rect width="67" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="33" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">WASM</text></g>
+<g transform="translate(279.2 238)"><rect width="97" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="49" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">Offline</text></g>
+<text x="760" y="261" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#ffb347">Open →</text>
+</svg>

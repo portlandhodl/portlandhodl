@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-label="QR Snap: Dynamic QR code platform for automotive, powersports and retail with deep scan analytics.">
+<title>QR Snap</title>
+<defs>
+  <linearGradient id="bgqrsnap" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
+  </linearGradient>
+  <linearGradient id="acqrsnap" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f778ba"/><stop offset="1" stop-color="#ffadda"/>
+  </linearGradient>
+  <radialGradient id="glqrsnap" cx="0.12" cy="0.2" r="0.7">
+    <stop offset="0" stop-color="#f778ba" stop-opacity="0.22"/><stop offset="1" stop-color="#f778ba" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grqrsnap" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+</defs>
+<rect width="800" height="300" rx="18" fill="url(#bgqrsnap)"/>
+<rect width="800" height="300" rx="18" fill="url(#grqrsnap)"/>
+<rect width="800" height="300" rx="18" fill="url(#glqrsnap)"/>
+<rect x="1" y="1" width="798" height="298" rx="17" fill="none" stroke="#f778ba" stroke-opacity="0.35" stroke-width="2"/>
+<rect x="0" y="0" width="800" height="6" rx="3" fill="url(#acqrsnap)"/>
+<rect x="40" y="44" width="104" height="104" rx="22" fill="#f778ba" fill-opacity="0.12" stroke="#f778ba" stroke-opacity="0.5" stroke-width="2"/>
+<g transform="translate(60 64) scale(1.0)" fill="none" stroke="#ffadda" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="18" height="18" rx="2"/><rect x="38" y="8" width="18" height="18" rx="2"/><rect x="8" y="38" width="18" height="18" rx="2"/><path d="M38 38h6v6h-6zM50 38h6M38 50h6M50 50h6v6M44 44h6v6"/></g>
+<text x="172" y="94" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#f0f6fc">QR Snap</text>
+<g transform="translate(676 40)"><rect width="84" height="30" rx="15" fill="#f778ba" fill-opacity="0.16" stroke="#f778ba" stroke-opacity="0.6"/><circle cx="17" cy="15" r="4.5" fill="#ffadda"/><text x="30" y="20" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#ffadda">LIVE</text></g>
+<text x="172" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">Dynamic QR code platform for automotive,</text>
+<text x="172" y="164" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">powersports and retail with deep scan</text>
+<text x="172" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">analytics.</text>
+<g transform="translate(40 238)"><rect width="67" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="33" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">SaaS</text></g>
+<g transform="translate(118.8 238)"><rect width="118" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="59" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">Analytics</text></g>
+<g transform="translate(248.60000000000002 238)"><rect width="118" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="59" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">qrsnap.io</text></g>
+<text x="760" y="261" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#ffadda">Open →</text>
+</svg>

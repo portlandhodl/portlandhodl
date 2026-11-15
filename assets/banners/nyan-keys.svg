@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-label="Nyan Keys: FPGA mechanical keyboard: true USB 2.0 High Speed, 8000 Hz polling, full NKRO, sub-ms latency.">
+<title>Nyan Keys</title>
+<defs>
+  <linearGradient id="bgnyan-keys" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
+  </linearGradient>
+  <linearGradient id="acnyan-keys" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#a371f7"/><stop offset="1" stop-color="#d2a8ff"/>
+  </linearGradient>
+  <radialGradient id="glnyan-keys" cx="0.12" cy="0.2" r="0.7">
+    <stop offset="0" stop-color="#a371f7" stop-opacity="0.22"/><stop offset="1" stop-color="#a371f7" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grnyan-keys" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+</defs>
+<rect width="800" height="300" rx="18" fill="url(#bgnyan-keys)"/>
+<rect width="800" height="300" rx="18" fill="url(#grnyan-keys)"/>
+<rect width="800" height="300" rx="18" fill="url(#glnyan-keys)"/>
+<rect x="1" y="1" width="798" height="298" rx="17" fill="none" stroke="#a371f7" stroke-opacity="0.35" stroke-width="2"/>
+<rect x="0" y="0" width="800" height="6" rx="3" fill="url(#acnyan-keys)"/>
+<rect x="40" y="44" width="104" height="104" rx="22" fill="#a371f7" fill-opacity="0.12" stroke="#a371f7" stroke-opacity="0.5" stroke-width="2"/>
+<g transform="translate(60 64) scale(1.0)" fill="none" stroke="#d2a8ff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="16" width="56" height="32" rx="5"/><path d="M12 25h4M22 25h4M32 25h4M42 25h4M52 25h0M12 33h4M22 33h4M32 33h4M42 33h4M20 41h24"/></g>
+<text x="172" y="94" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#f0f6fc">Nyan Keys</text>
+<g transform="translate(646 40)"><rect width="114" height="30" rx="15" fill="#a371f7" fill-opacity="0.16" stroke="#a371f7" stroke-opacity="0.6"/><circle cx="17" cy="15" r="4.5" fill="#d2a8ff"/><text x="30" y="20" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#d2a8ff">OPEN HW</text></g>
+<text x="172" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">FPGA mechanical keyboard: true USB 2.0</text>
+<text x="172" y="164" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">High Speed, 8000 Hz polling, full NKRO,</text>
+<text x="172" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">sub-ms latency.</text>
+<g transform="translate(40 238)"><rect width="128" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="64" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">iCE40 FPGA</text></g>
+<g transform="translate(180.0 238)"><rect width="118" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="59" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">STM32F723</text></g>
+<g transform="translate(309.8 238)"><rect width="87" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="44" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">NyanOS</text></g>
+<text x="760" y="261" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#d2a8ff">Open →</text>
+</svg>

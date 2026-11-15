@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-label="xproof: Prove two Bitcoin keys share a BIP32 xpub without revealing it. Zero-knowledge, in your browser.">
+<title>xproof</title>
+<defs>
+  <linearGradient id="bgxproof" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
+  </linearGradient>
+  <linearGradient id="acxproof" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f7931a"/><stop offset="1" stop-color="#ffb347"/>
+  </linearGradient>
+  <radialGradient id="glxproof" cx="0.12" cy="0.2" r="0.7">
+    <stop offset="0" stop-color="#f7931a" stop-opacity="0.22"/><stop offset="1" stop-color="#f7931a" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grxproof" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+</defs>
+<rect width="800" height="300" rx="18" fill="url(#bgxproof)"/>
+<rect width="800" height="300" rx="18" fill="url(#grxproof)"/>
+<rect width="800" height="300" rx="18" fill="url(#glxproof)"/>
+<rect x="1" y="1" width="798" height="298" rx="17" fill="none" stroke="#f7931a" stroke-opacity="0.35" stroke-width="2"/>
+<rect x="0" y="0" width="800" height="6" rx="3" fill="url(#acxproof)"/>
+<rect x="40" y="44" width="104" height="104" rx="22" fill="#f7931a" fill-opacity="0.12" stroke="#f7931a" stroke-opacity="0.5" stroke-width="2"/>
+<g transform="translate(60 64) scale(1.0)" fill="none" stroke="#ffb347" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6l22 8v16c0 14-10 24-22 28C20 54 10 44 10 30V14z"/><path d="M22 32l7 7 13-14"/></g>
+<text x="172" y="94" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#f0f6fc">xproof</text>
+<g transform="translate(676 40)"><rect width="84" height="30" rx="15" fill="#f7931a" fill-opacity="0.16" stroke="#f7931a" stroke-opacity="0.6"/><circle cx="17" cy="15" r="4.5" fill="#ffb347"/><text x="30" y="20" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#ffb347">LIVE</text></g>
+<text x="172" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">Prove two Bitcoin keys share a BIP32</text>
+<text x="172" y="164" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">xpub without revealing it.</text>
+<text x="172" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">Zero-knowledge, in your browser.</text>
+<g transform="translate(40 238)"><rect width="67" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="33" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">Noir</text></g>
+<g transform="translate(118.8 238)"><rect width="118" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="59" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">UltraHonk</text></g>
+<g transform="translate(248.60000000000002 238)"><rect width="108" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="54" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">SP1 zkVM</text></g>
+<text x="760" y="261" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#ffb347">Open →</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-label="btcdeb-wasm: Bitcoin Script debugger in the browser, with live transactions pulled from mempool.space.">
+<title>btcdeb-wasm</title>
+<defs>
+  <linearGradient id="bgbtcdeb-wasm" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
+  </linearGradient>
+  <linearGradient id="acbtcdeb-wasm" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#f7931a"/><stop offset="1" stop-color="#ffb347"/>
+  </linearGradient>
+  <radialGradient id="glbtcdeb-wasm" cx="0.12" cy="0.2" r="0.7">
+    <stop offset="0" stop-color="#f7931a" stop-opacity="0.22"/><stop offset="1" stop-color="#f7931a" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grbtcdeb-wasm" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+</defs>
+<rect width="800" height="300" rx="18" fill="url(#bgbtcdeb-wasm)"/>
+<rect width="800" height="300" rx="18" fill="url(#grbtcdeb-wasm)"/>
+<rect width="800" height="300" rx="18" fill="url(#glbtcdeb-wasm)"/>
+<rect x="1" y="1" width="798" height="298" rx="17" fill="none" stroke="#f7931a" stroke-opacity="0.35" stroke-width="2"/>
+<rect x="0" y="0" width="800" height="6" rx="3" fill="url(#acbtcdeb-wasm)"/>
+<rect x="40" y="44" width="104" height="104" rx="22" fill="#f7931a" fill-opacity="0.12" stroke="#f7931a" stroke-opacity="0.5" stroke-width="2"/>
+<g transform="translate(60 64) scale(1.0)" fill="none" stroke="#ffb347" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="36" rx="13" ry="17"/><path d="M32 19v34M19 30H8M19 42H8M45 30h11M45 42h11M24 16l-5-7M40 16l5-7"/></g>
+<text x="172" y="94" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#f0f6fc">btcdeb-wasm</text>
+<g transform="translate(676 40)"><rect width="84" height="30" rx="15" fill="#f7931a" fill-opacity="0.16" stroke="#f7931a" stroke-opacity="0.6"/><circle cx="17" cy="15" r="4.5" fill="#ffb347"/><text x="30" y="20" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#ffb347">LIVE</text></g>
+<text x="172" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">Bitcoin Script debugger in the browser,</text>
+<text x="172" y="164" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">with live transactions pulled from</text>
+<text x="172" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">mempool.space.</text>
+<g transform="translate(40 238)"><rect width="148" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="74" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">rust-bitcoin</text></g>
+<g transform="translate(200.39999999999998 238)"><rect width="87" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="44" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">Script</text></g>
+<g transform="translate(299.59999999999997 238)"><rect width="108" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="54" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">Debugger</text></g>
+<text x="760" y="261" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#ffb347">Open →</text>
+</svg>
