@@ -41,6 +41,7 @@ ICONS = {
     "chip": '<rect x="16" y="16" width="32" height="32" rx="3"/><rect x="24" y="24" width="16" height="16"/><path d="M24 16V8M32 16V8M40 16V8M24 56v-8M32 56v-8M40 56v-8M16 24H8M16 32H8M16 40H8M56 24h-8M56 32h-8M56 40h-8"/>',
     "qr": '<rect x="8" y="8" width="18" height="18" rx="2"/><rect x="38" y="8" width="18" height="18" rx="2"/><rect x="8" y="38" width="18" height="18" rx="2"/><path d="M38 38h6v6h-6zM50 38h6M38 50h6M50 50h6v6M44 44h6v6"/>',
     "pen": '<path d="M44 8l12 12-30 30H14V38z"/><path d="M38 14l12 12M8 56h48"/>',
+    "cpu64": '<rect x="4" y="10" width="56" height="38" rx="4"/><path d="M4 18h56M24 48v8M40 48v8M18 56h28"/><path d="M14 30l6 6-6 6M24 42h10"/>',
     "book": '<path d="M32 14C24 8 14 8 6 10v40c8-2 18-2 26 4 8-6 18-6 26-4V10c-8-2-18-2-26 4zM32 14v40"/>',
 }
 
@@ -217,14 +218,51 @@ def hero() -> str:
     return "\n".join(out)
 
 
+def featured() -> str:
+    """Wide top-of-README banner for v86_64."""
+    W, H = 1600, 360
+    a1, a2 = ACCENT["rust"]
+    uid = "v86"
+    chips = ["x86-64 long mode", "x86 -> wasm JIT", "~530 MIPS", "Debian · Ubuntu · Alpine", "No install"]
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
+           f'aria-label="v86_64: x86-64 PC emulator and x86-to-WebAssembly JIT that boots 64-bit Linux in the browser">',
+           "<title>v86_64</title>", defs(uid, a1, a2),
+           f'<rect width="{W}" height="{H}" rx="24" fill="url(#bg{uid})"/>',
+           f'<rect width="{W}" height="{H}" rx="24" fill="url(#gr{uid})"/>',
+           f'<rect width="{W}" height="{H}" rx="24" fill="url(#gl{uid})"/>',
+           f'<rect width="{W}" height="{H}" rx="24" fill="url(#gb{uid})"/>',
+           f'<rect x="1.5" y="1.5" width="{W-3}" height="{H-3}" rx="23" fill="none" stroke="{a1}" stroke-opacity="0.45" stroke-width="3"/>',
+           f'<rect x="0" y="0" width="{W}" height="8" rx="4" fill="url(#ac{uid})"/>',
+           f'<g opacity="0.10">{icon("cpu64", 1230, 30, 320, a1, 2.4)}</g>',
+           f'<rect x="64" y="64" width="150" height="150" rx="30" fill="{a1}" fill-opacity="0.12" stroke="{a1}" stroke-opacity="0.55" stroke-width="2.5"/>',
+           icon("cpu64", 89, 89, 100, a2, 3.4),
+           f'<text x="250" y="128" font-family="{SANS}" font-size="76" font-weight="800" fill="#f0f6fc">v86<tspan fill="{a1}">_</tspan>64</text>',
+           f'<text x="254" y="178" font-family="{SANS}" font-size="30" fill="{TEXT2}">Boot 64-bit Linux in your browser. x86-64 PC emulator + x86-to-WebAssembly JIT.</text>',
+           f'<text x="254" y="218" font-family="{SANS}" font-size="23" fill="{TEXT3}">A VirtualBox-style VM manager that streams multi-GB ISOs and runs them in a tab, nothing installed.</text>']
+    pw = 44 + len("FEATURED") * 11
+    out.append(f'<g transform="translate({W-64-pw} 52)"><rect width="{pw}" height="36" rx="18" fill="{a1}" fill-opacity="0.18" stroke="{a1}" stroke-opacity="0.7"/>'
+               f'<circle cx="19" cy="18" r="5" fill="{a2}"/>'
+               f'<text x="34" y="24" font-family="{MONO}" font-size="16" font-weight="700" fill="{a2}">FEATURED</text></g>')
+    x = 64
+    for c in chips:
+        w = 30 + len(c) * 11.4
+        out.append(f'<g transform="translate({x} 270)"><rect width="{w:.0f}" height="44" rx="22" fill="{a1}" fill-opacity="0.12" stroke="{a1}" stroke-opacity="0.55"/>'
+                   f'<text x="{w/2:.0f}" y="29" text-anchor="middle" font-family="{MONO}" font-size="18" fill="{a2}">{escape(c)}</text></g>')
+        x += w + 12
+    out.append(f'<text x="{W-64}" y="300" text-anchor="end" font-family="{SANS}" font-size="24" font-weight="700" fill="{a2}">Launch a VM →</text>')
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "hero.svg").write_text(hero())
+    (OUT / "v86_64.svg").write_text(featured())
     for p in PROJECTS:
         (OUT / f"{p[0]}.svg").write_text(card(*p))
     for s in SECTIONS:
         (OUT / f"section-{s[0]}.svg").write_text(section(*s))
-    print(f"wrote {1 + len(PROJECTS) + len(SECTIONS)} banners to {OUT}")
+    print(f"wrote {2 + len(PROJECTS) + len(SECTIONS)} banners to {OUT}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-label="v86_64: x86-64 PC emulator and x86-to-WebAssembly JIT that boots 64-bit Linux in the browser">
+<title>v86_64</title>
+<defs>
+  <linearGradient id="bgv86" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#1c1240"/><stop offset="1" stop-color="#0a0c24"/>
+  </linearGradient>
+  <linearGradient id="acv86" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#3b82f6"/>
+  </linearGradient>
+  <radialGradient id="gbv86" cx="0.95" cy="1" r="0.8">
+    <stop offset="0" stop-color="#2563eb" stop-opacity="0.20"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glv86" cx="0.12" cy="0.2" r="0.7">
+    <stop offset="0" stop-color="#3b82f6" stop-opacity="0.30"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grv86" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+  </pattern>
+</defs>
+<rect width="1600" height="360" rx="24" fill="url(#bgv86)"/>
+<rect width="1600" height="360" rx="24" fill="url(#grv86)"/>
+<rect width="1600" height="360" rx="24" fill="url(#glv86)"/>
+<rect width="1600" height="360" rx="24" fill="url(#gbv86)"/>
+<rect x="1.5" y="1.5" width="1597" height="357" rx="23" fill="none" stroke="#3b82f6" stroke-opacity="0.45" stroke-width="3"/>
+<rect x="0" y="0" width="1600" height="8" rx="4" fill="url(#acv86)"/>
+<g opacity="0.10"><g transform="translate(1230 30) scale(5.0)" fill="none" stroke="#3b82f6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="56" height="38" rx="4"/><path d="M4 18h56M24 48v8M40 48v8M18 56h28"/><path d="M14 30l6 6-6 6M24 42h10"/></g></g>
+<rect x="64" y="64" width="150" height="150" rx="30" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.55" stroke-width="2.5"/>
+<g transform="translate(89 89) scale(1.5625)" fill="none" stroke="#93c5fd" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="56" height="38" rx="4"/><path d="M4 18h56M24 48v8M40 48v8M18 56h28"/><path d="M14 30l6 6-6 6M24 42h10"/></g>
+<text x="250" y="128" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="76" font-weight="800" fill="#f0f6fc">v86<tspan fill="#3b82f6">_</tspan>64</text>
+<text x="254" y="178" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" fill="#b8b4e6">Boot 64-bit Linux in your browser. x86-64 PC emulator + x86-to-WebAssembly JIT.</text>
+<text x="254" y="218" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="23" fill="#8f8bc4">A VirtualBox-style VM manager that streams multi-GB ISOs and runs them in a tab, nothing installed.</text>
+<g transform="translate(1404 52)"><rect width="132" height="36" rx="18" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-opacity="0.7"/><circle cx="19" cy="18" r="5" fill="#93c5fd"/><text x="34" y="24" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" font-weight="700" fill="#93c5fd">FEATURED</text></g>
+<g transform="translate(64 270)"><rect width="212" height="44" rx="22" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.55"/><text x="106" y="29" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="18" fill="#93c5fd">x86-64 long mode</text></g>
+<g transform="translate(288.4 270)"><rect width="201" height="44" rx="22" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.55"/><text x="100" y="29" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="18" fill="#93c5fd">x86 -&gt; wasm JIT</text></g>
+<g transform="translate(501.4 270)"><rect width="133" height="44" rx="22" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.55"/><text x="66" y="29" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="18" fill="#93c5fd">~530 MIPS</text></g>
+<g transform="translate(646.0 270)"><rect width="304" height="44" rx="22" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.55"/><text x="152" y="29" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="18" fill="#93c5fd">Debian · Ubuntu · Alpine</text></g>
+<g transform="translate(961.6 270)"><rect width="144" height="44" rx="22" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.55"/><text x="72" y="29" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="18" fill="#93c5fd">No install</text></g>
+<text x="1536" y="300" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#93c5fd">Launch a VM →</text>
+</svg>
