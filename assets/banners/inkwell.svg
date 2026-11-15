@@ -2,13 +2,16 @@
 <title>Inkwell</title>
 <defs>
   <linearGradient id="bginkwell" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
+    <stop offset="0" stop-color="#1c1240"/><stop offset="1" stop-color="#0a0c24"/>
   </linearGradient>
   <linearGradient id="acinkwell" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#3fb9a8"/><stop offset="1" stop-color="#7ee0d2"/>
+    <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#3b82f6"/>
   </linearGradient>
+  <radialGradient id="gbinkwell" cx="0.95" cy="1" r="0.8">
+    <stop offset="0" stop-color="#2563eb" stop-opacity="0.20"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+  </radialGradient>
   <radialGradient id="glinkwell" cx="0.12" cy="0.2" r="0.7">
-    <stop offset="0" stop-color="#3fb9a8" stop-opacity="0.22"/><stop offset="1" stop-color="#3fb9a8" stop-opacity="0"/>
+    <stop offset="0" stop-color="#3b82f6" stop-opacity="0.30"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
   </radialGradient>
   <pattern id="grinkwell" width="24" height="24" patternUnits="userSpaceOnUse">
     <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
@@ -17,17 +20,18 @@
 <rect width="800" height="300" rx="18" fill="url(#bginkwell)"/>
 <rect width="800" height="300" rx="18" fill="url(#grinkwell)"/>
 <rect width="800" height="300" rx="18" fill="url(#glinkwell)"/>
-<rect x="1" y="1" width="798" height="298" rx="17" fill="none" stroke="#3fb9a8" stroke-opacity="0.35" stroke-width="2"/>
+<rect width="800" height="300" rx="18" fill="url(#gbinkwell)"/>
+<rect x="1" y="1" width="798" height="298" rx="17" fill="none" stroke="#3b82f6" stroke-opacity="0.35" stroke-width="2"/>
 <rect x="0" y="0" width="800" height="6" rx="3" fill="url(#acinkwell)"/>
-<rect x="40" y="44" width="104" height="104" rx="22" fill="#3fb9a8" fill-opacity="0.12" stroke="#3fb9a8" stroke-opacity="0.5" stroke-width="2"/>
-<g transform="translate(60 64) scale(1.0)" fill="none" stroke="#7ee0d2" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M44 8l12 12-30 30H14V38z"/><path d="M38 14l12 12M8 56h48"/></g>
+<rect x="40" y="44" width="104" height="104" rx="22" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.5" stroke-width="2"/>
+<g transform="translate(60 64) scale(1.0)" fill="none" stroke="#93c5fd" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M44 8l12 12-30 30H14V38z"/><path d="M38 14l12 12M8 56h48"/></g>
 <text x="172" y="94" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#f0f6fc">Inkwell</text>
-<g transform="translate(676 40)"><rect width="84" height="30" rx="15" fill="#3fb9a8" fill-opacity="0.16" stroke="#3fb9a8" stroke-opacity="0.6"/><circle cx="17" cy="15" r="4.5" fill="#7ee0d2"/><text x="30" y="20" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#7ee0d2">LIVE</text></g>
-<text x="172" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">Fast Markdown editor powered by Rust +</text>
-<text x="172" y="164" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">WebAssembly: live preview, math,</text>
-<text x="172" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#9da7b3">diagrams, themes.</text>
-<g transform="translate(40 238)"><rect width="67" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="33" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">Rust</text></g>
-<g transform="translate(118.8 238)"><rect width="67" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="33" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">WASM</text></g>
-<g transform="translate(197.6 238)"><rect width="108" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="54" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#c9d1d9">Markdown</text></g>
-<text x="760" y="261" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#7ee0d2">Open →</text>
+<g transform="translate(676 40)"><rect width="84" height="30" rx="15" fill="#3b82f6" fill-opacity="0.16" stroke="#3b82f6" stroke-opacity="0.6"/><circle cx="17" cy="15" r="4.5" fill="#93c5fd"/><text x="30" y="20" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="700" fill="#93c5fd">LIVE</text></g>
+<text x="172" y="134" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#b8b4e6">Fast Markdown editor powered by Rust +</text>
+<text x="172" y="164" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#b8b4e6">WebAssembly: live preview, math,</text>
+<text x="172" y="194" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="21" fill="#b8b4e6">diagrams, themes.</text>
+<g transform="translate(40 238)"><rect width="67" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="33" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#b8b4e6">Rust</text></g>
+<g transform="translate(118.8 238)"><rect width="67" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="33" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#b8b4e6">WASM</text></g>
+<g transform="translate(197.6 238)"><rect width="108" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/><text x="54" y="23" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="16" fill="#b8b4e6">Markdown</text></g>
+<text x="760" y="261" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#93c5fd">Open →</text>
 </svg>

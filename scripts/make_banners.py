@@ -14,15 +14,16 @@ from pathlib import Path
 OUT = Path(__file__).resolve().parent.parent / "assets" / "banners"
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
 MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
-ORANGE = "#f7931a"
+BG1, BG2 = "#1c1240", "#0a0c24"   # deep purple -> midnight blue
+TEXT2, TEXT3 = "#b8b4e6", "#8f8bc4"
 
 # Accent per category.
 ACCENT = {
-    "btc": ("#f7931a", "#ffb347"),
-    "hw": ("#a371f7", "#d2a8ff"),
-    "rust": ("#3fb9a8", "#7ee0d2"),
-    "edu": ("#58a6ff", "#a5d6ff"),
-    "biz": ("#f778ba", "#ffadda"),
+    "btc": ("#8b5cf6", "#c4b5fd"),   # violet
+    "hw": ("#6366f1", "#a5b4fc"),    # indigo
+    "rust": ("#3b82f6", "#93c5fd"),  # blue
+    "edu": ("#0ea5e9", "#7dd3fc"),   # sky
+    "biz": ("#c026d3", "#f0abfc"),   # fuchsia
 }
 
 # Icons: drawn in a 64x64 box, stroked with currentColor-equivalent (filled in by caller).
@@ -113,13 +114,16 @@ def icon(name: str, x: float, y: float, size: float, color: str, sw: float = 3.2
 def defs(uid: str, a1: str, a2: str) -> str:
     return f'''<defs>
   <linearGradient id="bg{uid}" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/>
+    <stop offset="0" stop-color="{BG1}"/><stop offset="1" stop-color="{BG2}"/>
   </linearGradient>
   <linearGradient id="ac{uid}" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="{a1}"/><stop offset="1" stop-color="{a2}"/>
+    <stop offset="0" stop-color="{a1}"/><stop offset="1" stop-color="#3b82f6"/>
   </linearGradient>
+  <radialGradient id="gb{uid}" cx="0.95" cy="1" r="0.8">
+    <stop offset="0" stop-color="#2563eb" stop-opacity="0.20"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+  </radialGradient>
   <radialGradient id="gl{uid}" cx="0.12" cy="0.2" r="0.7">
-    <stop offset="0" stop-color="{a1}" stop-opacity="0.22"/><stop offset="1" stop-color="{a1}" stop-opacity="0"/>
+    <stop offset="0" stop-color="{a1}" stop-opacity="0.30"/><stop offset="1" stop-color="{a1}" stop-opacity="0"/>
   </radialGradient>
   <pattern id="gr{uid}" width="24" height="24" patternUnits="userSpaceOnUse">
     <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
@@ -135,6 +139,7 @@ def card(pid, cat, ic, title, tagline, chips, cta) -> str:
            f'<rect width="{W}" height="{H}" rx="18" fill="url(#bg{pid})"/>',
            f'<rect width="{W}" height="{H}" rx="18" fill="url(#gr{pid})"/>',
            f'<rect width="{W}" height="{H}" rx="18" fill="url(#gl{pid})"/>',
+           f'<rect width="{W}" height="{H}" rx="18" fill="url(#gb{pid})"/>',
            f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="17" fill="none" stroke="{a1}" stroke-opacity="0.35" stroke-width="2"/>',
            f'<rect x="0" y="0" width="{W}" height="6" rx="3" fill="url(#ac{pid})"/>',
            # icon tile
@@ -147,12 +152,12 @@ def card(pid, cat, ic, title, tagline, chips, cta) -> str:
                f'<circle cx="17" cy="15" r="4.5" fill="{a2}"/>'
                f'<text x="30" y="20" font-family="{MONO}" font-size="14" font-weight="700" fill="{a2}">{escape(cta)}</text></g>')
     for i, line in enumerate(wrap(tagline, 40)[:3]):
-        out.append(f'<text x="172" y="{134 + i*30}" font-family="{SANS}" font-size="21" fill="#9da7b3">{escape(line)}</text>')
+        out.append(f'<text x="172" y="{134 + i*30}" font-family="{SANS}" font-size="21" fill="{TEXT2}">{escape(line)}</text>')
     x = 40
     for c in chips:
         w = 26 + len(c) * 10.2
         out.append(f'<g transform="translate({x} 238)"><rect width="{w:.0f}" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>'
-                   f'<text x="{w/2:.0f}" y="23" text-anchor="middle" font-family="{MONO}" font-size="16" fill="#c9d1d9">{escape(c)}</text></g>')
+                   f'<text x="{w/2:.0f}" y="23" text-anchor="middle" font-family="{MONO}" font-size="16" fill="{TEXT2}">{escape(c)}</text></g>')
         x += w + 12
     out.append(f'<text x="{W-40}" y="261" text-anchor="end" font-family="{SANS}" font-size="18" font-weight="600" fill="{a2}">Open →</text>')
     out.append("</svg>")
@@ -168,10 +173,11 @@ def section(sid, cat, ic, title, sub) -> str:
         f'<rect width="{W}" height="{H}" rx="20" fill="url(#bg{sid})"/>',
         f'<rect width="{W}" height="{H}" rx="20" fill="url(#gr{sid})"/>',
         f'<rect width="{W}" height="{H}" rx="20" fill="url(#gl{sid})"/>',
+        f'<rect width="{W}" height="{H}" rx="20" fill="url(#gb{sid})"/>',
         f'<rect x="0" y="{H-6}" width="{W}" height="6" rx="3" fill="url(#ac{sid})"/>',
         icon(ic, 44, 30, 72, a2, 3.6),
         f'<text x="148" y="76" font-family="{SANS}" font-size="50" font-weight="800" fill="#f0f6fc">{escape(title)}</text>',
-        f'<text x="150" y="112" font-family="{MONO}" font-size="22" fill="#8b949e">{escape(sub)}</text>',
+        f'<text x="150" y="112" font-family="{MONO}" font-size="22" fill="{TEXT3}">{escape(sub)}</text>',
         "</svg>"])
 
 
@@ -185,6 +191,7 @@ def hero() -> str:
            f'<rect width="{W}" height="{H}" rx="24" fill="url(#bghero)"/>',
            f'<rect width="{W}" height="{H}" rx="24" fill="url(#grhero)"/>',
            f'<rect width="{W}" height="{H}" rx="24" fill="url(#glhero)"/>',
+           f'<rect width="{W}" height="{H}" rx="24" fill="url(#gbhero)"/>',
            f'<rect x="1.5" y="1.5" width="{W-3}" height="{H-3}" rx="23" fill="none" stroke="{a1}" stroke-opacity="0.35" stroke-width="3"/>']
     # big faint bitcoin mark on the right
     out.append(f'<g opacity="0.10">{icon("bitcoin", 1180, 40, 340, a1, 2.4)}</g>')
@@ -196,8 +203,8 @@ def hero() -> str:
             out.append(f'<path d="M{x-24} 359h24" stroke="{a1}" stroke-opacity="0.6" stroke-width="2"/>')
     out += [icon("bitcoin", 72, 70, 96, a1, 3.4),
             f'<text x="196" y="132" font-family="{SANS}" font-size="78" font-weight="800" fill="#f0f6fc">Portland<tspan fill="{a1}">.</tspan>HODL</text>',
-            f'<text x="200" y="182" font-family="{SANS}" font-size="30" fill="#c9d1d9">Bitcoin developer · Bitcoin Core contributor · hardware hacker</text>',
-            f'<text x="200" y="226" font-family="{SANS}" font-size="24" fill="#8b949e">In-browser Bitcoin tools, Rust + WASM, FPGA keyboards and the QR Snap platform.</text>']
+            f'<text x="200" y="182" font-family="{SANS}" font-size="30" fill="{TEXT2}">Bitcoin developer · Bitcoin Core contributor · hardware hacker</text>',
+            f'<text x="200" y="226" font-family="{SANS}" font-size="24" fill="{TEXT3}">In-browser Bitcoin tools, Rust + WASM, FPGA keyboards and the QR Snap platform.</text>']
     x = 72
     for t in tags:
         w = 30 + len(t) * 12.6

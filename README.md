@@ -1,9 +1,9 @@
 <a href="https://github.com/portlandhodl"><img src="assets/banners/hero.svg" width="100%" alt="Portland.HODL: Bitcoin developer, Bitcoin Core contributor, builder of open-source in-browser Bitcoin tools, Nyan Keys FPGA keyboard and QR Snap"></a>
 
 <p align="center">
-  <a href="https://x.com/PortlandHODL"><img src="https://img.shields.io/badge/X-@PortlandHODL-000000?style=for-the-badge&logo=x&logoColor=white" alt="Portland.HODL on X (Twitter)"></a>
-  <a href="https://gpupairs.com"><img src="https://img.shields.io/badge/gpupairs.com-Sats_per_Silicon-f7931a?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Sats per Silicon BTC/GPU dashboard"></a>
-  <a href="https://qrsnap.io"><img src="https://img.shields.io/badge/qrsnap.io-QR_Snap-f778ba?style=for-the-badge&logo=qrcode&logoColor=white" alt="QR Snap dynamic QR codes"></a>
+  <a href="https://x.com/PortlandHODL"><img src="https://img.shields.io/badge/X-@PortlandHODL-312e81?style=for-the-badge&logo=x&logoColor=white&labelColor=1c1240" alt="Portland.HODL on X (Twitter)"></a>
+  <a href="https://gpupairs.com"><img src="https://img.shields.io/badge/gpupairs.com-Sats_per_Silicon-8b5cf6?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Sats per Silicon BTC/GPU dashboard"></a>
+  <a href="https://qrsnap.io"><img src="https://img.shields.io/badge/qrsnap.io-QR_Snap-c026d3?style=for-the-badge&logo=qrcode&logoColor=white" alt="QR Snap dynamic QR codes"></a>
   <a href="https://github.com/portlandhodl?tab=followers"><img src="https://img.shields.io/github/followers/portlandhodl?style=for-the-badge&logo=github&label=Follow" alt="Follow portlandhodl on GitHub"></a>
 </p>
 
@@ -174,20 +174,20 @@ Free, open-source, client-side **Bitcoin developer tools**. No accounts, no serv
 
 | Project | Merged PRs |
 |---|---|
-| **[bitcoin/bitcoin](https://github.com/bitcoin/bitcoin/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** (Bitcoin Core) | [![](https://img.shields.io/github/issues-search/bitcoin/bitcoin?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=f7931a&style=flat-square)](https://github.com/bitcoin/bitcoin/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
-| **[bitcoin/bips](https://github.com/bitcoin/bips/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** | [![](https://img.shields.io/github/issues-search/bitcoin/bips?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=f7931a&style=flat-square)](https://github.com/bitcoin/bips/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
-| **[rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** | [![](https://img.shields.io/github/issues-search/rust-bitcoin/rust-bitcoin?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=f7931a&style=flat-square)](https://github.com/rust-bitcoin/rust-bitcoin/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
-| **[rust-miniscript](https://github.com/rust-bitcoin/rust-miniscript/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** | [![](https://img.shields.io/github/issues-search/rust-bitcoin/rust-miniscript?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=f7931a&style=flat-square)](https://github.com/rust-bitcoin/rust-miniscript/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
-| **[mempool/mempool](https://github.com/mempool/mempool/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** (mempool.space) | [![](https://img.shields.io/github/issues-search/mempool/mempool?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=f7931a&style=flat-square)](https://github.com/mempool/mempool/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
+| **[bitcoin/bitcoin](https://github.com/bitcoin/bitcoin/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** (Bitcoin Core) | [![](https://img.shields.io/github/issues-search/bitcoin/bitcoin?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=8b5cf6&style=flat-square)](https://github.com/bitcoin/bitcoin/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
+| **[bitcoin/bips](https://github.com/bitcoin/bips/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** | [![](https://img.shields.io/github/issues-search/bitcoin/bips?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=8b5cf6&style=flat-square)](https://github.com/bitcoin/bips/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
+| **[rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** | [![](https://img.shields.io/github/issues-search/rust-bitcoin/rust-bitcoin?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=8b5cf6&style=flat-square)](https://github.com/rust-bitcoin/rust-bitcoin/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
+| **[rust-miniscript](https://github.com/rust-bitcoin/rust-miniscript/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** | [![](https://img.shields.io/github/issues-search/rust-bitcoin/rust-miniscript?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=8b5cf6&style=flat-square)](https://github.com/rust-bitcoin/rust-miniscript/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
+| **[mempool/mempool](https://github.com/mempool/mempool/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged)** (mempool.space) | [![](https://img.shields.io/github/issues-search/mempool/mempool?query=is%3Apr%20author%3Aportlandhodl%20is%3Amerged&label=merged&color=8b5cf6&style=flat-square)](https://github.com/mempool/mempool/pulls?q=is%3Apr+author%3Aportlandhodl+is%3Amerged) |
 
 <br>
 
 ### Get in touch
 
-[![X](https://img.shields.io/badge/X-@PortlandHODL-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/PortlandHODL)
-[![Email](https://img.shields.io/badge/Email-admin%40qrsnap.io-555?style=flat-square&logo=maildotru&logoColor=white)](mailto:admin@qrsnap.io)
-[![QR Snap](https://img.shields.io/badge/Web-qrsnap.io-f778ba?style=flat-square)](https://qrsnap.io)
-[![Sats per Silicon](https://img.shields.io/badge/Web-gpupairs.com-f7931a?style=flat-square)](https://gpupairs.com)
+[![X](https://img.shields.io/badge/X-@PortlandHODL-312e81?style=flat-square&logo=x&logoColor=white)](https://x.com/PortlandHODL)
+[![Email](https://img.shields.io/badge/Email-admin%40qrsnap.io-3b82f6?style=flat-square&logo=maildotru&logoColor=white)](mailto:admin@qrsnap.io)
+[![QR Snap](https://img.shields.io/badge/Web-qrsnap.io-c026d3?style=flat-square)](https://qrsnap.io)
+[![Sats per Silicon](https://img.shields.io/badge/Web-gpupairs.com-8b5cf6?style=flat-square)](https://gpupairs.com)
 
 <sub>Topics: Bitcoin · Bitcoin Core · Miniscript · output descriptors · PSBT · Taproot · BIP32 · zero-knowledge proofs · Rust · WebAssembly · FPGA · mechanical keyboards · hardware wallets · COLDCARD · Lean 4 formal verification</sub>
 
